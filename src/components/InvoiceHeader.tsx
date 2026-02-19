@@ -8,6 +8,8 @@ import { Button } from '@/components/ui/button';
 import { formatDate } from '@/lib/utils';
 import { Download, Share2, Archive, RefreshCcw } from 'lucide-react';
 
+import { motion } from 'framer-motion';
+
 interface InvoiceHeaderProps {
     invoice: Invoice;
     onArchiveToggle: () => void;
@@ -18,7 +20,11 @@ export function InvoiceHeader({ invoice, onArchiveToggle }: InvoiceHeaderProps) 
     const isLate = invoice.status === 'LATE';
 
     return (
-        <div className="space-y-6">
+        <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="space-y-6"
+        >
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
                     <div className="flex items-center gap-3">

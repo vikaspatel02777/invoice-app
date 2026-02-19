@@ -25,21 +25,7 @@ export function PaymentHistory({ invoice }: PaymentHistoryProps) {
     }
 
     return (
-                            <div className="flex items-center gap-3">
-                                <div className="flex h-9 w-9 items-center justify-center rounded-full bg-green-100 border border-green-200">
-                                    <CheckCircle2 className="h-5 w-5 text-green-600" />
-                                </div>
-                                <div>
-                                    <p className="text-sm font-medium leading-none">
-                                        Payment Received
-                                    </p>
-                                    <p className="text-sm text-muted-foreground">
-                                        {formatDate(payment.date)}
-                                    </p>
-                                    {payment.note && <p className="text-xs text-muted-foreground mt-1">Note: {payment.note}</p>}
-                                </div>
-                            </div>
-                            <div className="font-medium">
+
         <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
