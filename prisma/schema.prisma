@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Invoice {
+  id            String    @id @default(uuid())
+  invoiceNumber String    @unique
+  customerName  String
+  invoiceDate   DateTime
+  dueDate       DateTime
+  status        String
+  totalAmount   Float
+  currency      String    @default("USD")
+  isArchived    Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  lineItems     LineItem[]
+  payments      Payment[]
+}
+
+model LineItem {
+  id          String  @id @default(uuid())
+  description String
+  quantity    Int
+  unitPrice   Float
+  invoice     Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  invoiceId   String
+}
+
+model Payment {
+  id        String   @id @default(uuid())
+  amount    Float
+  date      DateTime @default(now())
+  note      String?
+  invoice   Invoice  @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  invoiceId String
+}

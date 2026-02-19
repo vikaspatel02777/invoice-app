@@ -1,0 +1,117 @@
+2026-02-19T15:07:18.685584Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2026-02-19T15:07:18.685803Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app", pattern: "**/*", negated: false }
+2026-02-19T15:07:18.686220Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2026-02-19T15:07:18.686261Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app" }
+2026-02-19T15:07:18.790158Z  INFO discover_sources: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:18.977249Z  INFO discover_sources:walk_synchronous: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:19.588201Z  INFO discover_sources:walk_synchronous: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:19.706701Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\api\\invoices\\[id]\\route.ts"
+2026-02-19T15:07:19.706878Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\file.svg"
+2026-02-19T15:07:19.707899Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\globe.svg"
+2026-02-19T15:07:19.708717Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\api\\invoices\\[id]\\status\\route.ts"
+2026-02-19T15:07:19.709300Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\next.svg"
+2026-02-19T15:07:19.709681Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\vercel.svg"
+2026-02-19T15:07:19.709878Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\invoices\\[id]\\page.tsx"
+2026-02-19T15:07:19.714739Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\requests.http"
+2026-02-19T15:07:19.715352Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\eslint.config.mjs"
+2026-02-19T15:07:19.715671Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\next.config.ts"
+2026-02-19T15:07:19.715806Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\package.json"
+2026-02-19T15:07:19.715921Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\postcss.config.mjs"
+2026-02-19T15:07:19.741739Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\window.svg"
+2026-02-19T15:07:19.742000Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\layout.tsx"
+2026-02-19T15:07:19.742718Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\api\\invoices\\[id]\\payments\\route.ts"
+2026-02-19T15:07:19.983000Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\prisma\\schema.prisma"
+2026-02-19T15:07:19.983523Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\prisma.config.ts"
+2026-02-19T15:07:19.984621Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\PaymentModal.tsx"
+2026-02-19T15:07:19.985578Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\ui\\badge.tsx"
+2026-02-19T15:07:20.020242Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\ui\\button.tsx"
+2026-02-19T15:07:20.041437Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\README.md"
+2026-02-19T15:07:20.041898Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\lib\\prisma.ts"
+2026-02-19T15:07:20.042919Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\page.tsx"
+2026-02-19T15:07:20.051894Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\lib\\utils.ts"
+2026-02-19T15:07:20.054178Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\InvoiceHeader.tsx"
+2026-02-19T15:07:20.054717Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\types\\index.ts"
+2026-02-19T15:07:20.057904Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\prisma\\seed.ts"
+2026-02-19T15:07:20.059190Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\PaymentHistory.tsx"
+2026-02-19T15:07:20.067060Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\tsconfig.json"
+2026-02-19T15:07:20.067264Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\LineItemsTable.tsx"
+2026-02-19T15:07:20.186703Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\ui\\card.tsx"
+2026-02-19T15:07:20.202817Z  INFO discover_sources: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.202864Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.202874Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.202888Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.217784Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.218278Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.218336Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.218359Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-02-19T15:07:20.218939Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\globals.css"
+2026-02-19T15:07:20.218982Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.219011Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.219024Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.250295Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.250362Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.250595Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.251479Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.251516Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.251526Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.298416Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.299177Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.299210Z  INFO get_globs:discover_sources: tailwindcss_oxide::scanner: enter
+2026-02-19T15:07:20.299221Z  INFO get_globs:discover_sources: tailwindcss_oxide::scanner: exit
+2026-02-19T15:07:20.566271Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:34.376088Z  INFO discover_sources: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:34.392543Z  INFO discover_sources:walk_parallel: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:37.221271Z  INFO discover_sources:walk_parallel: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:37.240838Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\postcss.config.mjs"
+2026-02-19T15:12:37.241134Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\tsconfig.json"
+2026-02-19T15:12:37.241544Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\file.svg"
+2026-02-19T15:12:37.241729Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\types\\index.ts"
+2026-02-19T15:12:37.241744Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\prisma.config.ts"
+2026-02-19T15:12:37.242020Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\lib\\utils.ts"
+2026-02-19T15:12:37.242153Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\globe.svg"
+2026-02-19T15:12:37.242300Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\lib\\prisma.ts"
+2026-02-19T15:12:37.242502Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\requests.http"
+2026-02-19T15:12:37.242851Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\ui\\card.tsx"
+2026-02-19T15:12:37.243025Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\README.md"
+2026-02-19T15:12:37.243367Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\api\\invoices\\[id]\\status\\route.ts"
+2026-02-19T15:12:37.243526Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\api\\invoices\\[id]\\route.ts"
+2026-02-19T15:12:37.243834Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\ui\\button.tsx"
+2026-02-19T15:12:37.243872Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\api\\invoices\\[id]\\payments\\route.ts"
+2026-02-19T15:12:37.244033Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\window.svg"
+2026-02-19T15:12:37.244172Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\vercel.svg"
+2026-02-19T15:12:37.244312Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\ui\\badge.tsx"
+2026-02-19T15:12:37.244538Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\public\\next.svg"
+2026-02-19T15:12:37.244724Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\PaymentModal.tsx"
+2026-02-19T15:12:37.252437Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\PaymentHistory.tsx"
+2026-02-19T15:12:37.252528Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\invoices\\[id]\\page.tsx"
+2026-02-19T15:12:37.252764Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\api\\invoices\\route.ts"
+2026-02-19T15:12:37.253192Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\LineItemsTable.tsx"
+2026-02-19T15:12:37.253835Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\page.tsx"
+2026-02-19T15:12:37.256193Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\components\\InvoiceHeader.tsx"
+2026-02-19T15:12:37.256800Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\layout.tsx"
+2026-02-19T15:12:37.258631Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\package.json"
+2026-02-19T15:12:37.258631Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\next.config.ts"
+2026-02-19T15:12:37.259823Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\eslint.config.mjs"
+2026-02-19T15:12:37.259853Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\prisma\\seed.ts"
+2026-02-19T15:12:37.260334Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\prisma\\schema.prisma"
+2026-02-19T15:12:37.299886Z  INFO discover_sources: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:37.300263Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:37.300276Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:37.300288Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:38.291161Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:38.291762Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:38.291806Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:38.291815Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-02-19T15:12:38.292182Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\vikash patel\\OneDrive\\Desktop\\intern2\\invoice-app\\src\\app\\globals.css"
+2026-02-19T15:12:38.292212Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:38.292546Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:38.292570Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:38.438317Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:38.438379Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:38.439244Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:38.441841Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:38.441882Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:38.441891Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:38.491327Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-02-19T15:12:38.491742Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-02-19T15:12:38.492085Z  INFO get_globs: tailwindcss_oxide::scanner: exit
